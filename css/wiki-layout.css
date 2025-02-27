@@ -110,6 +110,7 @@ aside h2 {
 
 aside.right-sidebar nav {
   padding: var(--right-sidebar-padding);
+  position: fixed;
 }
 
 ol.contents {
