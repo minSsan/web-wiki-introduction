@@ -39,5 +39,7 @@ const handleRegisterClick = () => {
   const commentsContainer = document.querySelector(".comment-list");
   commentsContainer.append(newCommentContainer);
 
+  alert("댓글이 등록되었습니다");
+
   commentTag.value = "";
 };
