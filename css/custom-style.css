@@ -1,0 +1,15 @@
+.movie-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-item h4 {
+  text-align: center;
+}
