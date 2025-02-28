@@ -13,3 +13,23 @@
 .movie-item h4 {
   text-align: center;
 }
+
+#comment-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#comment-input {
+  width: 500px;
+}
+
+#cancel-button {
+  width: 100px;
+  height: 100%;
+}
+
+#register-button {
+  width: 100px;
+  height: 100%;
+}
